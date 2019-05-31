@@ -1,14 +1,16 @@
 import React from 'react'
-import './App.css'
 
-import { PersonaDetail, PersonaListing } from 'Persona'
+import { Container } from 'reactstrap'
+
+import { FooterPage, HeaderPage } from 'shared/components'
 
 function App() {
   return (
-    <React.Fragment>
-      <PersonaDetail />
-      <PersonaListing />
-    </React.Fragment>
+    <Container fluid className="p-0">
+      <HeaderPage />
+      <main>Main not yet Component</main>
+      <FooterPage />
+    </Container>
   )
 }
 

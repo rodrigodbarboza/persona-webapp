@@ -1,1 +1,2 @@
-export { default as EditToggle } from './EditToggle'
+export * from './Footer'
+export * from './Header'
