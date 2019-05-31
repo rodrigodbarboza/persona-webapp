@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Persona Webapp
+
+Persona Webapp is a React project to provide a front-end solution for [sls-persona-webapp](https://github.com/jorgechavez77/sls-persona-service). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+_Try to use hooks_
+
+## Contributing
+
+Help us to create a contributing file.
+
+### Requirements
+
+- [Yarn](https://yarnpkg.com/en/)
+- [Prettier](https://prettier.io/)
+- [eslint](https://eslint.org/)
+
+### Tools
+
+- [Apollo Client DevTools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en)\*
+- [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)\*
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en). _Not required but can help us with some good reports_
+- [Bitmoji](https://chrome.google.com/webstore/detail/bitmoji/bfgdeiadkckfbkeigkoncpdieiiefpig?hl=en). _Not needed at all._
 
 ## Available Scripts
 
@@ -26,16 +47,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
