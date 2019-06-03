@@ -31,11 +31,7 @@ const FooterTemplate = () => (
         <section>
           <h4>Contributors</h4>
           <ul>
-            <li>RN</li>
-            <li>JC</li>
-            <li>GS</li>
-            <li>RD</li>
-            <li>JV</li>
+            <li>Rodrigo Narvaez</li>
           </ul>
         </section>
       </div>
