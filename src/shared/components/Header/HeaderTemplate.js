@@ -31,7 +31,7 @@ const HeaderTemplate = ({
 }) => (
   <header className="header">
     <Container>
-      <Navbar dark expand="md" fixed>
+      <Navbar dark expand="md">
         <NavbarBrand>PersonaWebapp</NavbarBrand>
         <NavbarToggler onClick={handleNavbarToggle} />
         <Collapse isOpen={isNavbarOpen} navbar>
