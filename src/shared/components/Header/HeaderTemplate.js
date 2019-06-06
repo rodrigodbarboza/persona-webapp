@@ -9,6 +9,7 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap'
+import { Link } from 'react-router-dom'
 import SecurityButtons from './SecurityButtons'
 import { NavMenu } from 'shared/components/Menu'
 import './HeaderTemplate.css'
@@ -33,7 +34,10 @@ const HeaderTemplate = ({
   <header className="header">
     <Container>
       <Navbar dark expand="md">
-        <NavbarBrand>PersonaWebapp</NavbarBrand>
+        <NavbarBrand>
+          <Link to="/">PersonaWebapp</Link>
+        </NavbarBrand>
+
         <NavbarToggler onClick={handleNavbarToggle} />
         <Collapse isOpen={isNavbarOpen} navbar>
           <Nav className="ml-auto align-middle" navbar pills>
