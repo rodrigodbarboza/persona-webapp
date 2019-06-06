@@ -9,7 +9,8 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap'
-import { NavItemComponent, SecurityButtons } from './components'
+import SecurityButtons from './SecurityButtons'
+import { NavMenu } from 'shared/components/Menu'
 import './HeaderTemplate.css'
 
 const propTypes = {
@@ -36,9 +37,7 @@ const HeaderTemplate = ({
         <NavbarToggler onClick={handleNavbarToggle} />
         <Collapse isOpen={isNavbarOpen} navbar>
           <Nav className="ml-auto align-middle" navbar pills>
-            <NavItemComponent description="Persona" link="persona" />
-            <NavItemComponent description="Roles" link="Roles" />
-            <NavItemComponent description="Apps" link="Apps" />
+            <NavMenu />
             <NavItem className="mx-3 my-2 my-md-0" />
             <SecurityButtons
               isAuthenticated={isAuthenticated}

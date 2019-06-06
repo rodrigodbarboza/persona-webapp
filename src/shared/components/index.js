@@ -1,2 +1,5 @@
 export * from './Footer'
 export * from './Header'
+export * from './Menu'
+export { default as Home } from './Home'
+export { default as MainRouter } from './MainRouter'

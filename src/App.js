@@ -1,15 +1,17 @@
 import React from 'react'
-
+import { BrowserRouter as Router } from 'react-router-dom'
 import { Container } from 'reactstrap'
 
-import { FooterPage, HeaderPage } from 'shared/components'
+import { FooterPage, HeaderPage, MainRouter } from 'shared/components'
 
 function App() {
   return (
     <Container fluid className="p-0">
-      <HeaderPage />
-      <main>Main not yet Component</main>
-      <FooterPage />
+      <Router>
+        <HeaderPage />
+        <MainRouter />
+        <FooterPage />
+      </Router>
     </Container>
   )
 }
