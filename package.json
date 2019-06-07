@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prepush": "yarn test",
     "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
@@ -51,7 +52,6 @@
   ],
   "devDependencies": {
     "chai": "^4.2.0",
-    "chai-enzyme": "^1.0.0-beta.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0"
   }
